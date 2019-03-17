@@ -1,17 +1,18 @@
 def create_an_empty_array
-  
+  []
 end
 
 def create_an_array
-  
+  food = ["pizza", "puff", "khari", "oats"]
 end
 
 def add_element_to_end_of_array(array, element)
-  
+  food << "eggs"
+  puts food.inspect
 end
 
 def add_element_to_start_of_array(array, element)
-  
+  food.unshift("candy")
 end
 
 def remove_element_from_end_of_array(array)
