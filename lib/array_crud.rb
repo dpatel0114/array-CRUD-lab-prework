@@ -6,7 +6,7 @@ def create_an_array
   food = ["pizza", "puff", "khari", "oats"]
 end
 
-def add_element_to_end_of_array(food, eggs)
+def add_element_to_end_of_array(array, element)
   food.push("eggs")
 end
 
